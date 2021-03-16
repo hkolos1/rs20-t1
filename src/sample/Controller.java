@@ -12,5 +12,7 @@ public class Controller {
 
     public void akcija(ActionEvent event) {
         labela.setText("Hello World");
+        labela.getStyleClass().add("boja");
+
     }
 }
