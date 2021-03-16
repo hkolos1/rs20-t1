@@ -1,0 +1,11 @@
+.root{
+    -fx-background-color: lightskyblue;
+}
+.label {
+    -fx-font-size: 32;
+    -fx-font-family: Arial;
+
+}
+.button{
+    -fx-background-color: white;
+}
