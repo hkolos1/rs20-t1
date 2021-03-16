@@ -1,18 +1,17 @@
 package sample;
 
 import javafx.event.ActionEvent;
-import javafx.fxml.FXML;
 import javafx.scene.control.Label;
-
+import javafx.scene.layout.GridPane;
 
 public class Controller {
+    public Label helloWorld;
+    public GridPane root;
 
-    @FXML
-    private Label labela;
-
-    public void akcija(ActionEvent event) {
-        labela.setText("Hello World");
-        labela.getStyleClass().add("boja");
-
+    public void setText(ActionEvent actionEvent) {
+        helloWorld.getStyleClass().removeAll("sakrij");
+        helloWorld.getStyleClass().add("prikazi");
+        helloWorld.setText("Hello World!");
+        root.setStyle("-fx-background-color: lightpink");
     }
 }

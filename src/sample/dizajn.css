@@ -1,14 +1,17 @@
-.root{
-    -fx-background-color: lightskyblue;
-}
-.label {
+#root {
     -fx-font-size: 32;
     -fx-font-family: Arial;
+}
 
-}
-.button{
-    -fx-background-color: white;
-}
-.boja {
+.crvena {
     -fx-background-color: lightpink;
+}
+
+.prikazi {
+    -fx-alignment: center;
+    -fx-opacity: 1;
+}
+
+.sakrij {
+    -fx-opacity: 0;
 }
